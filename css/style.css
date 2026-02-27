@@ -1,0 +1,32 @@
+span{
+    color: tomato;
+    font-style: italic;
+    font-size: large;
+}
+.sub{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#new{
+    background-color: rgb(109, 151, 185);
+    font-style: italic;
+}
+span,h2{
+    font-size:100;
+    background: aqua;
+}
+*{
+    background-color: rgb(254,23,100);
+}
+div p{
+    background-color: hsl(200,100%,50%);
+}
+input[type="text"]{
+    color:rgb(0, 0, 0);
+}
+h1+p{
+    color:coral;
+}
+h2~p{
+    color: green;
+}
