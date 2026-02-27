@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid ex</title>
+    <style>
+       /* .box{
+            background-color: red;
+            padding: 20px;
+            border: 2px solid black;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            gap: 9px;
+        }
+        .three{
+            grid-column: 3/5;
+        }
+        .first{
+            grid-row: 1/3;
+        }*/
+        .layout{
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+        }
+        .header{
+            grid-column: 1/4;
+            background-color: red;
+        }
+        .sidebar{
+            grid-row: 2/4;
+            background-color: blue;
+        }
+        .content{
+            grid-column: 2/4;
+            grid-row: 2/4;
+            background-color: green;
+        }
+        .footer{
+            grid-column: 1/4;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="box header">Header</div>
+        <div class="sidebar">SideBar</div>
+        <div class="content">content</div>
+        <div class="footer">footer</div>
+    </div>
+    <!-- <div class="container">
+        <div class="box first"></div>
+        <div class="box"></div>
+        <div class="box three"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div> -->
+</body>
+</html>
