@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Venkey | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>Venkey</h2>
+    <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Contact</li>
+    </ul>
+</nav>
+<img src="img.jpg" alt="Venkey" class="profile-pic">
+
+<div class="hero">
+    <h1>Venkey</h1>
+    <h3>Web Developer | Java | Python | SQL</h3>
+    <button class="btn">View My Work</button>
+    <a href="resume.pdf" download>
+    <button class="btn">Download Resume</button>
+</a>
+</div>
+<section>
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+        <p>
+            I am a passionate Web Developer skilled in Java, Python, SQL and MERN stack.
+            I enjoy building scalable web applications and solving real-world problems.
+            I am actively looking for entry-level opportunities to grow as a developer.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Projects</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>🚌 Bus Tracking System</h3>
+            <p>Real-time bus tracking application for monitoring live locations efficiently.</p>
+            
+        </div>
+
+        <div class="card">
+            <h3>🌦 Weather App</h3>
+            <p>Weather forecasting app showing real-time updates using API integration.</p>
+        </div>
+</section>
+<section>
+    <h2 class="section-title">Certifications</h2>
+    <div class="card-container">
+
+        <div class="card certificate-card">
+            <h3>Python Certification</h3>
+            <p>Click to view certificate</p>
+            <a href="python.jpeg" target="_blank">
+            <button class="btn">View</button>
+</a>
+        </div>
+
+        <div class="card certificate-card">
+            <h3>Responsive Web Design</h3>
+            <p>Click to view certificate</p>
+            <a href="web.jpeg" target="_blank">
+            <button class="btn">View</button>
+</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Certificate Modal -->
+<div id="certificateModal" class="modal">
+    <span class="close" onclick="closeCertificate()">&times;</span>
+    <img class="modal-content" id="certificateImage">
+</div>
+
+<section>
+    <h2 class="section-title">Skills</h2>
+    <div class="card-container">
+        <div class="card"><h3>Java</h3></div>
+        <div class="card"><h3>Python</h3></div>
+        <div class="card"><h3>SQL</h3></div>
+        <div class="card"><h3>MERN</h3></div>
+    </div>
+</section>
+<section>
+    <h2 class="section-title">Contact Me</h2>
+    <div class="card">
+        <form>
+            <input type="text" placeholder="Your Name" required><br><br>
+            <input type="email" placeholder="Your Email" required><br><br>
+            <textarea placeholder="Your Message" rows="4" required></textarea><br><br>
+            <button class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>Contact: venkeyr162@gmail.com | 9392837185</p>
+    <p>GitHub: github.com/Venkatesh1929</p>
+</footer>
+
+</body>
+</html>
