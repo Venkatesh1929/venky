@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>script</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="icon" href="img.jpg">
 </head>
 <body>
-    <script src="./script.js">
+    <p id="new">Hi today is not good day...!</p>
+    <p class="new">Hi today is not good day...!</p>
+    <ul id="list"></ul>
+    <button id="btn">click</button>
+    <script>
+        const btn=document.getElementById("btn");
+        btn.addEventListener("click",function(){
+            const li=document.createElement("li");
+            li.innerText="New li element";
+            document.getElementById("list").append(li);
+        })
+        // const li=document.createElement("li");
+        // li.innerText="New li element";
+        // document.getElementById("list").append(li);
+        //document.getElementById("new").textContent="Hello Sandy...!"; //innerText,innerHTML
+        //document.getElementById("new").innerText="Because it's sunday...!";
+        // var para=document.getElementById("new");
+        // console.log(para);
+        // para.style.color='red';
+        // para.style.background='green';
+        // para.style.fontSize='20px';
+        // var para1=document.getElementByClassName("para1");
+        // console.log(para1);
     </script>
-    
 </body>
 </html>
